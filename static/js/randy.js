@@ -10,3 +10,8 @@ function generateInt() {
 	var random = randInt(start, end);
 	$('#integer-random').val(random);
 }
+
+function rollDice(faces) {
+	var dice = randInt(1, faces);
+	$('#dice').val(dice);
+}
